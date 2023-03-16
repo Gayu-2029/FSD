@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Survey Form</title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <form action="success.html">
+        <h1>Survey Form to Date My Daughter</h1>
+        <p><b>Note: </b>Form is to be completed at least <b>21 days</b> prior to date.</p>
+        <hr>
+        <h3>Personal Details</h3>
+        <div class="cust">
+            <label for="fname"><strong>First Name</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="username" id="fname" placeholder="Enter Your First name" required>
+            <br/><br/>
+           </div>
+           <div class="cust">
+            <label for="lname"><strong>Last Name</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="username" id="lname" placeholder="Enter Your Last name" required>
+            <br/><br/>
+           </div>
+           <div class="cust">
+            <label for="age"><strong>Age</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="age" id="name" placeholder="Enter Your age" required>
+            <br/><br/>
+           </div>
+           <div class="cust">
+            <label for="opt"><strong>Gender</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <select name="opt1" id="opt">
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+                <option value="3">Other</option>
+             </select>
+             <br/><br/>
+           </div>
+           <div class="cust">
+            <label for="email"><strong>EMAIL_ID</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" name="email" id="email" placeholder="Enter Your EMAIL_ID" required>
+            <br/><br/>
+           </div>
+           <div class="cust">
+            <label for="mob"><strong>Phone No.</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="tel" name="mob1" id="mob" placeholder="Enter Phone No." required>
+            <br><br> 
+           </div>
+           <div class="cust">
+            <label for="IQlevel"><strong>IQ Level</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="IQlevel1" id="IQlevel" placeholder="IQlevel" required>
+            <br/><br/>
+           </div>
+           <hr>
+           <div>
+            <h3>Check All That Apply</h3>
+            <label for="Check">I love spending Money </label>
+            <input type="checkbox" name="Check1" id="Check1"><br><br>
+            <label for="Check2">I work full time </label>
+            <input type="checkbox" name="Check2" id="Check2"><br><br>
+             <label for="Check3">I have tattoos and piercings </label>
+            <input type="checkbox" name="Check3" id="Check3"> <br><br>
+            <label for="Check4">I earned more than $10000 a month </label>
+            <input type="checkbox" name="Check4" id="Check4">
+            <h2>Honesty is the best policy.</h2>
+           </div>
+           <hr>
+           <div>
+           <h3>Pick up lines</h3>
+           <p><strong>In about 20 words construct a pick up line that attracts my daughter</strong></p>
+           <label for="Pickuplines"><strong>Pick up lines</strong></label>
+           <textarea id="Pickuplines" name="pickup" rows="3" cols="20" placeholder=""></textarea><br>
+           <button type="submit" value="submit">Submit</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
