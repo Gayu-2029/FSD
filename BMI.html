@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BMI</title>
+    <link rel="stylesheet" href="BMI.css">
+    <script src="BMI.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <p><b>Height in CM:</b>
+            <input type="text" id="height"><br><span id="height_error"></span>
+        </p>
+        <p><b>Weight in KG:</b>
+            <input type="text" id="weight"><br><span id="weight_error"></span>
+        </p>
+        <label for="gn"><strong>Gender</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="radio1"  value="male" id="gn" required/>Male 
+        &nbsp; &nbsp;
+        <input type="radio" name="radio1" value="female" id="gn" required/>Female
+        <br>
+        <button id="btn">Calculate</button>
+        <p id="output"></p>
+    </div>
+</body>
+</html>
