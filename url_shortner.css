@@ -1,0 +1,121 @@
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+body{
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #34495E;
+}
+
+.main{
+    position: relative;
+    background-color: #17202A ;
+    height: 500px;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+}
+
+#longurl{
+    position: relative;
+    top: 40%;
+    left: 10%;
+    height: 40px;
+    width: 296px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#shorten{
+    position: relative;
+    top: 40%;
+    left: 12%;
+    height: 40px;
+    width: 80px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+    /* color: white; */
+    /* background-color: black; */
+    cursor: pointer;
+    /* background-color: white; */
+    color: black;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+    /* padding: 10px 35px; */
+    background-color: transparent;
+    /* border: 1px solid white; */
+    color: white;
+    outline: none;
+    transition: .6s ease;
+}
+
+#shorten:hover{
+    background-color: white;
+    color: black;
+}
+
+#shorturl{
+    position: relative;
+    top: 45%;
+    left: 10%;
+    height: 40px;
+    width: 270px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 47px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#copy{
+    position: relative;
+    top: 46%;
+    left: 0%;
+    height: 35px;
+    width: 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    color: white;
+    background-color: black;
+    /* padding: 10px 35px; */
+    background-color:#17202A ;
+    border: 1px solid black;
+    /* color: white; */
+    outline: none;
+    transition: .6s ease;
+}
+
+#copy:hover{
+    background-color: white;
+    color: black;
+}
+
+.main p{
+    /* background-color: white; */
+    position: relative;
+    top: 30%;
+    left: 13%;
+    height: 60px;
+    width: 400px;
+    font-size: 50px;
+    font-family: italic;
+    font-weight: bold;
+    color: white;
+}
